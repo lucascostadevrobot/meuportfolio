@@ -1,0 +1,28 @@
+/*Inicializando componentes CSS*/
+
+/*Inicizalição da estilização da DOM*/
+a{
+  color: white !important;
+}
+
+header{
+  background: rgb(131,58,180) !important;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) !important;
+}
+
+
+/*Inicializando as classes*/
+.masthead{
+  height: 410px;
+}
+
+.rounded-circle{
+  height: 210px;
+  
+  
+  
+}
+
+.modal-styles{
+  border-radius: 70px !important;
+}
