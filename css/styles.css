@@ -5,6 +5,16 @@ a{
   color: white !important;
 }
 
+h3{
+
+  font-size: 48px;
+  font-family: 'Anton', sans-serif;
+  background: -webkit-linear-gradient(rgb(131, 49, 208), rgb(247, 106, 18));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
 header{
   background: rgb(131,58,180) !important;
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%) !important;
@@ -18,11 +28,14 @@ header{
 
 .rounded-circle{
   height: 210px;
-  
-  
-  
 }
 
 .borda-card-modal{
   border-radius: 190px !important;
+}
+
+
+.section-portfolio-root{
+  display: block !important;
+  padding: 100px !important;
 }
