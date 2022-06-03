@@ -48,3 +48,25 @@ header{
   border-bottom: 0% !important;
   border: none;
 }
+
+
+#switch-estilizacao{
+
+height: 90px; 
+width: 40px;
+
+}
+
+
+
+
+
+/* TESTANDO AQUIIIIII*/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
