@@ -49,7 +49,12 @@ header{
   border: none;
 }
 
+.card-body{
+  background-color:  rgb(103, 255, 151);
+}
 
+
+/*Inicializando os IDs*/
 #switch-estilizacao{
 
 height: 90px; 
@@ -70,3 +75,4 @@ width: 40px;
   background-color: white;
   color: black;
 }
+
