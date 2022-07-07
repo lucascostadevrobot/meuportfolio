@@ -10,6 +10,8 @@ h3{
   font-size: 48px;
   font-family: 'Anton', sans-serif;
   background: -webkit-linear-gradient(rgb(131, 49, 208), rgb(225, 79, 21));
+  text-align: center; 
+  margin-bottom: 39px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -39,7 +41,7 @@ header{
 .section-portfolio-root{
   display: block !important;
   padding: 100px !important;
-  
+ 
 }
 
 .card{
@@ -50,7 +52,8 @@ header{
 }
 
 .card-body{
-  background-color:  rgb(103, 255, 151);
+  background-color:  rgb(209, 209, 209);
+  border-radius: 2px;
 }
 
 
