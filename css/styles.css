@@ -1,11 +1,38 @@
 /*Inicializando componentes CSS*/
 
+/*==================================================================================*/
+/*Inicilizando a estilização do ScrollView Barra de Rolagem*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #CCCCCC;
+}
+
+::-webkit-scrollbar-track {
+  background: #CCCCCC;
+}
+::-webkit-scrollbar-track-piece {
+  background: #CCCCCC;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-corner {
+  background: #ffffff;
+  border-radius: 5px;
+}
+.form-comment textarea::-webkit-resizer {
+  border: 1px #ffffff dashed;
+}
+
+
+
+/*==================================================================================*/
 /*Inicizalição da estilização da DOM*/
 a{
   color: white !important;
 }
-
-
 
 h1{
    font: 'Anton', sans-serif;
@@ -30,6 +57,8 @@ header{
 }
 
 
+
+/*==================================================================================*/
 /*Inicializando as classes*/
 .masthead{
   height: 480px;
@@ -74,6 +103,18 @@ header{
   color: white;
 }
 
+.scrolling-wrapper{
+  display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+  padding-left: 400px;  
+
+ /* background-color: blue;    
+  border-radius: 20px;      
+  border: 3px solid orange; */
+}
+
+/*==================================================================================*/
 /*Inicializando os IDs*/
 #switch-estilizacao{
 
@@ -82,11 +123,11 @@ width: 40px;
 
 }
 
-
+/*==================================================================================*/
 /*Incializando linha do Tempo seção Sobre Mim*/
 .DB_Timeline {
   padding: 0;
-  margin: 0 auto;
+  margin: 100px auto;
   list-style: none;
   display: flex;
   align-items: flex-start;
@@ -145,11 +186,7 @@ width: 40px;
 }
 /*Fim linha do Tempo seção Sobre Mim*/
 
-
-
-
-
-
+/*==================================================================================*/
 /* TESTANDO AQUIIIIII*/
 .dark-mode {
   background-color: black;
@@ -159,4 +196,3 @@ width: 40px;
   background-color: white;
   color: black;
 }
-
