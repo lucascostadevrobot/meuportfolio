@@ -5,6 +5,13 @@ a{
   color: white !important;
 }
 
+
+
+h1{
+   font: 'Anton', sans-serif;
+   color: white;
+}
+
 h3{
 
   font-size: 48px;
@@ -56,6 +63,16 @@ header{
   border-radius: 2px;
 }
 
+.sobremim{
+  background-color: #161616 !important;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 37px;
+}
+
+.subtextos{
+  color: white;
+}
 
 /*Inicializando os IDs*/
 #switch-estilizacao{
@@ -64,6 +81,70 @@ height: 90px;
 width: 40px;
 
 }
+
+
+/*Incializando linha do Tempo seção Sobre Mim*/
+.DB_Timeline {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 1141px;
+  max-width: 100%;
+}
+.DB_Timeline__item {
+  position: relative;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: currentColor;
+  padding: 0 12px;
+  color: #d12129;
+}
+.DB_Timeline__item:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.DB_Timeline__item:nth-child(3n+2) {
+  color: #282828;
+}
+.DB_Timeline__item:nth-child(3n+3) {
+  color: #8d8e8d;
+}
+.DB_Timeline__item:nth-child(odd) {
+  border-bottom-width: 6px;
+  border-bottom-style: solid;
+  padding-bottom: 80px;
+  margin-bottom: 1em;
+}
+.DB_Timeline__item:nth-child(odd):after {
+  top: 0;
+  border-width: 12px 12px 0 0;
+  border-color: currentColor transparent transparent transparent;
+}
+.DB_Timeline__item:nth-child(even) {
+  border-top-width: 6px;
+  border-top-style: solid;
+  padding-top: 80px;
+  margin-top: calc(1em + 80px);
+}
+.DB_Timeline__item:nth-child(even):after {
+  bottom: 0;
+  border-width: 12px 0 0 12px;
+  border-color: transparent transparent transparent currentColor;
+}
+.DB_Timeline__text {
+  display: block;
+  line-height: 1;
+}
+/*Fim linha do Tempo seção Sobre Mim*/
+
 
 
 
