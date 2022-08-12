@@ -1,5 +1,4 @@
 /*Inicializando componentes CSS*/
-
 /*==================================================================================*/
 /*Inicilizando a estilização do ScrollView Barra de Rolagem*/
 ::-webkit-scrollbar {
@@ -93,10 +92,12 @@ header{
 }
 
 .sobremim{
+  height: auto;/*=============PAREIIIIIIIII AQUIIIII=============*/
+  overflow: hidden;/*=============PAREIIIIIIIII AQUIIIII=============*/
   background-color: #161616 !important;
   text-align: center;
-  padding-left: 150px;
   padding-right: 37px;
+  padding: 0;
 }
 
 .subtextos{
@@ -108,7 +109,6 @@ header{
 	flex-wrap: nowrap;
 	overflow-x: scroll;
   padding-left: 400px;  
-
  /* background-color: blue;    
   border-radius: 20px;      
   border: 3px solid orange; */
