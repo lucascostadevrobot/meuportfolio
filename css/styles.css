@@ -128,6 +128,18 @@ header{
   color: white;
 }
 
+.scrolling-wrapper{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-left: 840px !important;  
+
+ /*background-color: rgb(255, 8, 127);    
+  border-radius: 20px;      
+  border: 3px solid orange; */
+}
+
 /*Max-Widith*/
 @media screen and (max-width: 1040px) {
   .scrolling-wrapper{
