@@ -1,6 +1,6 @@
 /*Inicializando componentes CSS*/
 /*==================================================================================*/
-/*Inicilizando a estilização do ScrollView Barra de Rolagem*/
+/*Inicilizando a estilização do ScrollView Barra de Rolagem Global*/
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -56,9 +56,27 @@ header{
 }
 
 
+/*==================================================================================*/
+/*Incializando Ids Menu Nav Swicth de modo Dark*/
+#switch-estilizacao{
+
+  height: 90px; 
+  width: 40px;
+  
+  }
+
+  /* TESTANDO AQUIIIIII*/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
 
 /*==================================================================================*/
-/*Inicializando as classes*/
+/*Inicializando Section Cards Projetos Desenvolvidos*/
 .masthead{
   height: 480px;
   
@@ -91,12 +109,18 @@ header{
   border-radius: 2px;
 }
 
+
+
+
+/*==================================================================================*/
+/*Incializando linha do Tempo seção Sobre Mim*/
 .sobremim{
-  height: auto;/*=============PAREIIIIIIIII AQUIIIII=============*/
-  overflow: hidden;/*=============PAREIIIIIIIII AQUIIIII=============*/
+  height: auto;
+  overflow: hidden;
   background-color: #161616 !important;
   text-align: center;
   padding-right: 37px;
+  padding-left: 200px;
   padding: 0;
 }
 
@@ -104,27 +128,33 @@ header{
   color: white;
 }
 
-.scrolling-wrapper{
-  display: flex;
-	flex-wrap: nowrap;
-	overflow-x: scroll;
-  padding-left: 400px;  
- /* background-color: blue;    
-  border-radius: 20px;      
-  border: 3px solid orange; */
+/*Max-Widith*/
+@media screen and (max-width: 1040px) {
+  .scrolling-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-left: 840px !important;  
+  
+   /*background-color: rgb(255, 8, 127);    
+    border-radius: 20px;      
+    border: 3px solid orange; */
+  }
+  
+}
+/*Min-Width*/
+@media screen and (min-width: 320px) {
+  .scrolling-wrapper{
+    margin-left: auto;
+    padding-left: 1040px !important;  
+    padding-right: 1110px;
+  
+  }
+  
 }
 
-/*==================================================================================*/
-/*Inicializando os IDs*/
-#switch-estilizacao{
 
-height: 90px; 
-width: 40px;
-
-}
-
-/*==================================================================================*/
-/*Incializando linha do Tempo seção Sobre Mim*/
 .DB_Timeline {
   padding: 0;
   margin: 100px auto;
@@ -187,12 +217,3 @@ width: 40px;
 /*Fim linha do Tempo seção Sobre Mim*/
 
 /*==================================================================================*/
-/* TESTANDO AQUIIIIII*/
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-.light-mode {
-  background-color: white;
-  color: black;
-}
