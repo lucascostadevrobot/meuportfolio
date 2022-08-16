@@ -156,11 +156,12 @@ header{
   
 }
 /*Min-Width*/
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 310px) {
   .scrolling-wrapper{
     margin-left: auto;
-    padding-left: 1040px !important;  
-    padding-right: 1110px;
+    padding-left: 1240px !important;  
+    
+    padding-right: 1240px;
   
   }
   
