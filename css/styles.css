@@ -1,4 +1,7 @@
 /*Inicializando componentes CSS*/
+:root{
+  margin: 0 auto;
+}
 /*==================================================================================*/
 /*Inicilizando a estilização do ScrollView Barra de Rolagem Global*/
 ::-webkit-scrollbar {
@@ -73,6 +76,21 @@ header{
 .light-mode {
   background-color: white;
   color: black;
+}
+
+/*==================================================================================*/
+/*Inicializando Section Hards Skills e Soft Skills*/
+.section_capacidades{
+
+  background: rgb(131,58,180) !important;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(128, 238, 196) 50%, rgba(252,176,69,1) 100%) !important;
+}
+
+/*ListView do Modal que abre na Section Hard Skills*/
+.listview_hardskills{
+  width: 50px;
+  height: 100px;
+  margin-left: 350px;
 }
 
 /*==================================================================================*/
