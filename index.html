@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--Incon Favicon website-->
+    <link rel="icon" type="imagem/png" href="/assets/img/icon_portfolio_lucas.png" />
+
 
 
     <!--Include Estilação externa css-->
@@ -21,7 +24,7 @@
 
 <body>
     <!--Inicialização do Menu navbar-->
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="home">
         <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,14 +35,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre mim</a>
+                        <a class="nav-link" href="#sobre">Sobre mim</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link enable" href="#">Portfolio</a>
+                        <a class="nav-link" href="#hard_skills">Hard Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link enable" href="#portfolio">Portfolio</a>
                     </li>
                 </ul>
                 <!--Inicializando div dark-mode-->
@@ -80,7 +87,7 @@
 
 
     <!--Inicialização seção SOBRE MIM-->
-    <section class="sobremim">
+    <section class="sobremim" id="sobre">
         <h1>Sobre mim</h1>
         <p class="subtextos">"Faça o que tiver que ser feito com o que você tem hoje!</p>
 
@@ -218,7 +225,7 @@
     <!--Fim seção SOBRE MIM-->
 
     <!--Inicialização  da seção Hard Skills e Soft Skills-->
-    <section class="section_capacidades">
+    <section class="section_capacidades" id="hard_skills">
         <div class="container px-4 py-5" id="icon-grid">
             <h2 class="pb-2 border-bottom">Hard Skills</h2>
 
@@ -340,16 +347,16 @@
             <!--Botão da seção-->
             <div class="row">
                 <div class="col text-center">
-                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal1">Quero
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal10">Quero
                         conhecer</a>
                 </div>
             </div>
         </div>
         <!--Fim Botão da seção-->
-        <!--Inicialização do Modal | Visualizar mais Hard Skills-->
+        <!--Finalizando do Modal | Visualizar mais Hard Skills-->
 
         <!-- Efeito para Portfolio Modal 1 card-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" aria-labelledby="portfolioModal10"
             aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -459,11 +466,6 @@
                                         </tbody>
                                     </table>
                                     <!--Finalizando Listgroup Hard Skills-->
-                                    <p class="mb-4">Conhecer mais sobre hard skills. As Hard Skills são técnicas
-                                        práticas que
-                                        <a href="https://github.com/lucascostadevrobot/freeRIDE"
-                                            style="color: purple !important;">Quero conhecer mais</a>
-                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Fechar janela
@@ -482,11 +484,11 @@
 
 
     <!--Inicialização da section Portfolio-->
-    <section class="section-portfolio-root">
+    <section class="section-portfolio-root" id="portfolio">
         <div class="col-sm-14 ">
             <h3 class="text-center"><b>Projetos Desenvolvidos</b></h3>
             <!-- Portfolio Item 1-->
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="card border-success mb-5" style="max-width: 18rem;">
                     <!-- Estilizando a borda da div-->
                     <div class=" justify-content-center">
@@ -814,11 +816,12 @@
 
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
-        <a class="text-white" href="https://github.com/lucascostadevrobot">Lucas da Costa</a>
-    </div>
-    <!-- Copyright -->
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://github.com/lucascostadevrobot">Lucas da Costa</a>
+        </div>
+        <!-- Copyright -->
     </footer>
     <!--Fim da inicialização do Footer-->
 

@@ -214,7 +214,8 @@ header{
 /*==================================================================================*/
 /*Inicializando Section Cards Projetos Desenvolvidos*/
 .masthead{
-  height: 480px;
+  height: 680px;
+  padding-top: 60px;
   
 }
 
@@ -247,3 +248,7 @@ header{
 
 /*==================================================================================*/
 /*Inicializando a seção do Footer*/
+footer{
+  background-color: #282828;
+  color: white;
+}
