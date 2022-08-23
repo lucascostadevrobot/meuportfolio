@@ -79,22 +79,6 @@ header{
 }
 
 /*==================================================================================*/
-/*Inicializando Section Hards Skills e Soft Skills*/
-.section_capacidades{
-
-  background: rgb(131,58,180) !important;
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(128, 238, 196) 50%, rgba(252,176,69,1) 100%) !important;
-}
-
-/*ListView do Modal que abre na Section Hard Skills*/
-.listview_hardskills{
-  width: 50px;
-  height: 100px;
-  margin-left: 350px;
-}
-
-
-/*==================================================================================*/
 /*Incializando linha do Tempo seção Sobre Mim*/
 .sobremim{
   height: auto;
@@ -210,6 +194,34 @@ header{
 }
 /*Fim linha do Tempo seção Sobre Mim*/
 /*==================================================================================*/
+
+
+
+/*==================================================================================*/
+/*Inicializando Section Hards Skills e Soft Skills*/
+.section_capacidades{
+
+  background: rgb(131,58,180) !important;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(128, 238, 196) 50%, rgba(252,176,69,1) 100%) !important;
+}
+
+/*ListView do Modal que abre na Section Hard Skills*/
+.listview_hardskills{
+  width: 50px;
+  height: 100px;
+  margin-left: 350px;
+}
+
+.efeito_mouse{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.efeito_mouse:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
 
 /*==================================================================================*/
 /*Inicializando Section Cards Projetos Desenvolvidos*/
