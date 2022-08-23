@@ -93,42 +93,6 @@ header{
   margin-left: 350px;
 }
 
-/*==================================================================================*/
-/*Inicializando Section Cards Projetos Desenvolvidos*/
-.masthead{
-  height: 480px;
-  
-}
-
-.rounded-circle{
-  height: 210px;
-}
-
-.borda-card-modal{
-  border-radius: 190px !important;
-}
-
-
-.section-portfolio-root{
-  display: block !important;
-  padding: 100px !important;
- 
-}
-
-.card{
-  margin-left: 40px !important;
-  border-radius: 10px;
-  border-bottom: 0% !important;
-  border: none;
-}
-
-.card-body{
-  background-color:  rgb(209, 209, 209);
-  border-radius: 2px;
-}
-
-
-
 
 /*==================================================================================*/
 /*Incializando linha do Tempo seção Sobre Mim*/
@@ -245,5 +209,41 @@ header{
   line-height: 1;
 }
 /*Fim linha do Tempo seção Sobre Mim*/
+/*==================================================================================*/
 
 /*==================================================================================*/
+/*Inicializando Section Cards Projetos Desenvolvidos*/
+.masthead{
+  height: 480px;
+  
+}
+
+.rounded-circle{
+  height: 210px;
+}
+
+.borda-card-modal{
+  border-radius: 190px !important;
+}
+
+
+.section-portfolio-root{
+  display: block !important;
+  padding: 100px !important;
+ 
+}
+
+.card{
+  margin-left: 40px !important;
+  border-radius: 10px;
+  border-bottom: 0% !important;
+  border: none;
+}
+
+.card-body{
+  background-color:  rgb(209, 209, 209);
+  border-radius: 2px;
+}
+
+/*==================================================================================*/
+/*Inicializando a seção do Footer*/
