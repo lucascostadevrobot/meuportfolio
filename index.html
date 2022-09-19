@@ -20,12 +20,12 @@
 
 
     <!--Include Estilação externa css-->
-    <link href="https://lucascostadevrobot.github.io/meuportfolio/css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
     <!--Inicialização do Menu navbar-->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark" id="home">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark">
         <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -59,17 +59,13 @@
                 </div>
                 <!--Fim da div dark-mode-->
                 <br>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
             </div>
         </div>
     </nav>
     <!--Fim do Menu navbar-->
 
     <!--Inicialização do Header home-->
-    <header class="masthead text-center text-white">
+    <header class="masthead text-center text-white" id="home">
         <div class="masthead-content">
             <div class="container px-5">
                 <h1 class="masthead-heading mb-0">Lucas da Costa</h1>
@@ -78,7 +74,7 @@
 
 
                 <img class="img-fluid rounded-circle" src="assets/img/foto-lucascosta.png" alt="..." /><br>
-                <a class="btn btn-primary btn-xl rounded-pill mt-5"
+                <a class="btn btn-outline-dark btn-xl rounded-pill mt-5"
                     href="https://www.linkedin.com/in/lucas-costa-2219b5189/">Ler mais</a>
             </div>
         </div>
@@ -91,7 +87,7 @@
 
 
     <!--Inicialização seção SOBRE MIM Experiências Profissionais-->
-    <section class="sobremim  subtextos" id="experiencias">
+    <section class="sobremim  subtextos" id="experincias">
         <div class="container px-4 py-5" id="icon-grid">
             <h2 class="pb-2 border-bottom">Experiências profissionais</h2>
 
@@ -191,8 +187,7 @@
     <!--Inicialização  da seção Hard Skills e Soft Skills-->
     <section class="section_capacidades" id="hard_skills">
         <div class="container px-4 py-5" id="icon-grid">
-            <h2 class="pb-2 border-bottom">Hard Skills</h2>
-
+            <h2 class="pb-2 border-bottom"><span style="color: white;">Hard Skills</span></h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
                 <div class="col d-flex align-items-start">
                     <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
@@ -320,8 +315,7 @@
             <!--Botão da seção-->
             <div class="row">
                 <div class="col text-center">
-                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal10">Quero
-                        conhecer</a>
+                    <a href="#" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#portfolioModal10">Clique aqui para saber mais</a>
                 </div>
             </div>
         </div>
@@ -440,7 +434,7 @@
                                         </tbody>
                                     </table>
                                     <!--Finalizando Listgroup Hard Skills-->
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Fechar janela
                                     </button>
@@ -458,9 +452,9 @@
 
 
     <!--Inicialização da section Portfolio-->
-    <section class="section-portfolio-root" id="portfolio">
+    <section class="section-portfolio-root align-items-center" id="portfolio">
         <div class="col-sm-14 ">
-            <h3 class="text-center"><b>Projetos Desenvolvidos</b></h3>
+            <h3 class="text-center "><b>Projetos Desenvolvidos</b></h3>
             <!-- Portfolio Item 1-->
             <div class="row justify-content-center">
                 <div class="card border-success mb-5" style="max-width: 18rem;">
@@ -483,7 +477,7 @@
                                 <p class="card-text">Aplicativo de mobilidade urbana para motoristas e passageiros, com
                                     preços acessíveis e trocas.</p>
                                 <!-- Inicio data-bs-toogle e data-bs-targe executam a abertura do modal-->
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                <a href="#" class="btn btn-outline-secondary" data-bs-toggle="modal"
                                     data-bs-target="#portfolioModal1">Quero conhecer</a>
                             </div>
                             <!-- Inicio data-bs-toogle e data-bs-targe executam a abertura do modal-->
@@ -516,7 +510,7 @@
                             <p class="card-text">Um mundo sustentável bem na palma da sua mão. Aplicativo para o meio
                                 ambiente.</p>
                             <!-- Inicio data-bs-toogle e data-bs-targe executam a abertura do modal-->
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                            <a href="#" class="btn btn-outline-secondary" data-bs-toggle="modal"
                                 data-bs-target="#portfolioModal2">Quero conhecer</a>
                         </div>
                         <!-- Inicio data-bs-toogle e data-bs-targe executam a abertura do modal-->
@@ -546,7 +540,7 @@
                             <p class="card-text">Aplicativo de mobilidade urbana para Moto Taxista. Projeto Conclusão de
                                 Curso (TCC).</p>
                             <!-- Inicio data-bs-toogle e data-bs-targe executam a abertura do modal-->
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                            <a href="#" class="btn btn-outline-secondary" data-bs-toggle="modal"
                                 data-bs-target="#portfolioModal3">Quero conhecer</a>
                         </div>
                         <!-- Inicio data-bs-toogle e data-bs-targe executam a abertura do modal-->
@@ -597,7 +591,7 @@
                                         style="color: purple !important;">Quero conhecer mais</a>
 
                                 </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Fechar janela
                                 </button>
@@ -644,7 +638,7 @@
                                     Androi Studio como IDE para o Desenvolvimento. Ao aplicativo é para o sistema
                                     operacional Androi de forma Nativa.
                                 </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Fechar janela
                                 </button>
@@ -689,7 +683,7 @@
                                     de motos que realizam transporte de passageiros. Com esse aplicativo, resolveremos
                                     esse problema na Região Norte Fluminense de forma simples, prática e organizada.
                                 </p>
-                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Fechar janela
                                 </button>

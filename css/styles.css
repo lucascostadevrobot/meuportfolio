@@ -36,9 +36,7 @@ a{
   color: white !important;
 }
 
-p{
-  color: white;
-}
+
 
 h1{
    font: 'Anton', sans-serif;
@@ -48,13 +46,15 @@ h1{
 h3{
 
   font-size: 48px;
-  font-family: 'Anton', sans-serif;
-  background: -webkit-linear-gradient(rgb(131, 49, 208), rgb(225, 79, 21));
+  background: -webkit-linear-gradient(rgb(15, 14, 15), rgb(15, 14, 15));
   text-align: center; 
   margin-bottom: 39px;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 
+}
+
+h4{
+  color: white;
 }
 
 header{
@@ -87,11 +87,10 @@ header{
 .sobremim{
   background-color: #161616 !important;
   text-align: center;
-
 }
 .subtextos{
   padding: 41px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /*Scroll View deitado*/
@@ -138,10 +137,13 @@ header{
 
 /*==================================================================================*/
 /*Inicializando Section Hards Skills e Soft Skills*/
+.btn-outline-dark{
+  border-color: white;
+}
+
 .section_capacidades{
 
-  background: rgb(131,58,180) !important;
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(128, 238, 196) 50%, rgba(252,176,69,1) 100%) !important;
+  background: #161616 !important;
 }
 
 /*ListView do Modal que abre na Section Hard Skills*/
@@ -164,6 +166,11 @@ header{
 
 /*==================================================================================*/
 /*Inicializando Section Cards Projetos Desenvolvidos*/
+.btn-outline-secondary{
+  border-color: black !important;
+  color: black !important;
+  }
+
 .masthead{
   height: 680px;
   padding-top: 60px;
@@ -193,7 +200,7 @@ header{
 }
 
 .card-body{
-  background-color:  rgb(209, 209, 209);
+  background-color:  rgb(249, 249, 249);
   border-radius: 2px;
 }
 
@@ -203,3 +210,5 @@ footer{
   background-color: #282828;
   color: white;
 }
+
+
